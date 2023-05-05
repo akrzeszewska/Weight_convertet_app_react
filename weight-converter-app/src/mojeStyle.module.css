@@ -1,0 +1,74 @@
+.contener{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #8D8D8D;
+}
+.weightconverter{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.myInput{
+    height: 25px;
+    width: 342px;
+    padding: 12px;
+    font-size: 29px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 0px;
+
+}
+.grams{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    height: 50px;
+    width: 342px;
+    background-color: #4c49d4;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+
+
+}
+.kilograms{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    height: 50px;
+    width: 342px;
+    background-color: #11b003;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+
+
+}
+.ounces{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    height: 50px;
+    width: 342px;
+    background-color: #f94444;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+
+
+}
+.howMany{
+    font-size: 12px;
+    color: white;
+    display: block;
+    padding-top: 7px;
+
+}
