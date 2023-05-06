@@ -6,7 +6,7 @@ export const Kilograms = (props) => {
     return (
         <div className={classes.kilograms}>
         <b>Kilograms:</b>
-        <span className={classes.howMany}> {Number(props.howManyKilograms) * 0.4536} </span>
+        <span className={classes.howMany}> {(Number(props.howManyKilograms) * 0.4536).toFixed(4)} </span>
         </div>
     );
 }
